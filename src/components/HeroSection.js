@@ -11,7 +11,7 @@ function HeroSection() {
         <h1>Keldan Cundy</h1>
         <h3>Front-End Developer based in Denver, Colorado</h3>
         <img
-          src="img/plant.png"
+          src="./img/plant.png"
           class="plant"
           width="185"
           height="185"

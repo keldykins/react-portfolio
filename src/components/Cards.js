@@ -24,25 +24,25 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <Project
-              src="img/codequiz.png"
+              src="./img/codequiz.png"
               text="Code Quiz"
               label="Coding Quiz"
               path="https://keldykins.github.io/4-code-quiz/"
             />
             <Project
-              src="img/passwordgen.png"
+              src="./img/passwordgen.png"
               text="Password Generator"
               label="JS Generator"
               path="https://keldykins.github.io/3-password-generator/"
             />
             <Project
-              src="img/burgerlogger.png"
+              src="./img/burgerlogger.png"
               text="Burger Logger"
               label="Engine"
               path="https://young-gorge-99503.herokuapp.com/"
             />
             <Project
-              src="img/weatherdash.png"
+              src="./img/weatherdash.png"
               text="Weather Dashboard"
               label="Server-Side API"
               path="https://keldykins.github.io/6-weather-dashboard/"
