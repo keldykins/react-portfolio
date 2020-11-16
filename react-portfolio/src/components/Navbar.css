@@ -19,7 +19,7 @@
 }
 
 .navbar-logo {
-  color: rgb(255, 236, 204);
+  color: rgba(255, 236, 204, 0.747);
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -108,7 +108,7 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
+    background-color: rgb(90, 86, 116);
     color: #242424;
     border-radius: 0;
   }

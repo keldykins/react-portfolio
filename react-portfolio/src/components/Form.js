@@ -43,7 +43,7 @@ function Form() {
           id="message"
         />
       </div>
-      <button type="submit" className="btn btn-light">
+      <button type="submit" className="btn btn-dark">
         submit
       </button>
     </form>

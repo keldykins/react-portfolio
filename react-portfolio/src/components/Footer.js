@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 // import { Button } from "./Button";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,19 +10,32 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Links</h2>
-            <a href="https://postimg.cc/2Vv64vPg" target="_blank">
+            <a
+              href="https://postimg.cc/2Vv64vPg"
+              rel="noreferrer"
+              target="_blank"
+            >
               Resume
             </a>
-            <a href="https://www.github.com/keldykins" target="_blank">
+            <a
+              href="https://www.github.com/keldykins"
+              rel="noreferrer"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
               href="https://www.linkedin.com/in/keldan-cundy-501b71a1/"
+              rel="noreferrer"
               target="_blank"
             >
               LinkedIn
             </a>
-            <a href="https://www.instagram.com/mgc.wnd" target="_blank">
+            <a
+              href="https://www.instagram.com/mgc.wnd"
+              rel="noreferrer"
+              target="_blank"
+            >
               Instagram
             </a>
           </div>
@@ -34,6 +47,7 @@ function Footer() {
           <div class="social-icons">
             <a
               href="https://www.github.com/keldykins"
+              rel="noreferrer"
               target="_blank"
               class="social-icon-link github"
               aria-label="GitHub"
@@ -42,13 +56,17 @@ function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/in/keldan-cundy-501b71a1/"
+              rel="noreferrer"
               target="_blank"
               class="social-icon-link linkedin"
               aria-label="LinkedIn"
             >
               <i class="fab fa-linkedin" />
             </a>
-            <a href="https://www.instagram.com/mgc.wnd" target="_blank"
+            <a
+              href="https://www.instagram.com/mgc.wnd"
+              rel="noreferrer"
+              target="_blank"
               class="social-icon-link instagram"
               to="https://www.instagram.com/mgc.wnd"
               aria-label="Instagram"
