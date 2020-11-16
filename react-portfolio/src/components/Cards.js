@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cards.css";
-import CardItem from "./CardItem";
+import Project from "./Project";
 // import { Link } from "react-router-dom";
 
 function Cards() {
@@ -9,14 +9,13 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem
+            <Project
               src="img/movia.png"
-              // Link to="https://keldykins.github.io/Movia/"
               text="Movia"
               label="Movie Trivia"
               path="https://keldykins.github.io/Movia/"
             />
-            <CardItem
+            <Project
               src="img/bitereport.png"
               text="BiteReport"
               label="Food Reviews"
@@ -24,25 +23,25 @@ function Cards() {
             />
           </ul>
           <ul className="cards__items">
-            <CardItem
+            <Project
               src="img/codequiz.png"
               text="Code Quiz"
               label="Coding Quiz"
               path="https://keldykins.github.io/4-code-quiz/"
             />
-            <CardItem
+            <Project
               src="img/passwordgen.png"
               text="Password Generator"
               label="JS Generator"
               path="https://keldykins.github.io/3-password-generator/"
             />
-            <CardItem
+            <Project
               src="img/burgerlogger.png"
               text="Burger Logger"
               label="Engine"
               path="https://young-gorge-99503.herokuapp.com/"
             />
-            <CardItem
+            <Project
               src="img/weatherdash.png"
               text="Weather Dashboard"
               label="Server-Side API"
