@@ -42,10 +42,10 @@ function Cards() {
               path="https://young-gorge-99503.herokuapp.com/"
             />
             <Project
-              src="./img/weatherdash.png"
-              text="Weather Dashboard"
-              label="Server-Side API"
-              path="https://keldykins.github.io/6-weather-dashboard/"
+              src="./img/wormhole.png"
+              text="Wormhole"
+              label="MERN Book Search"
+              path="https://immense-cliffs-21577.herokuapp.com/"
             />
           </ul>
         </div>
