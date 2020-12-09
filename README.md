@@ -6,7 +6,8 @@ My updated portfolio using the latest technologies in React.js
 
 ## Usage
 
-https://keldykins.github.io/react-portfolio/
+https://keldancundy-portfolio.herokuapp.com/
+
 ## Contact
 
 Github: [keldykins](http://github.com/keldykins)
