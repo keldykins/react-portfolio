@@ -2,26 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Keldan', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'JS Developer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Keldan',
+  subtitle: 'I am a JS Developer',
+  cta: 'groovy',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Lets make your creative vision a reality',
+  paragraphTwo: 'Cert in Full Stack Web Development through University of Denver',
+  paragraphThree:
+    'Experience in HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, React.js, Database Theory, MongoDB, MySQL, Command Line, Git, and more.',
+  resume:
+    'https://docs.google.com/document/d/1EcKGlw-jsqbQ68lEoeiT1EaZcDPadW2Gt7z9hBwKmHk/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,37 +31,37 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Spiral',
+    info: 'MERN Social Network for Artists',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://immense-river-92138.herokuapp.com/',
+    repo: 'https://github.com/keldykins/spiral-social', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'wormhole.png',
+    title: 'wormhole',
+    info: 'MERN based Google Books search app',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://immense-cliffs-21577.herokuapp.com/',
+    repo: 'https://github.com/keldykins/wormhole-books', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'employeetracks.png',
+    title: 'Employee Tracks',
+    info: 'A React.js employee directory intended to view and sort non-sensitive employee data.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://keldykins.github.io/employee-tracks/',
+    repo: 'https://github.com/keldykins/employee-tracks', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would love to hear from you!',
+  btn: 'Email',
+  email: 'kelcundy@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +69,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/keldan-cundy/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/keldykins',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://instagram.com/mgc.wnd',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
