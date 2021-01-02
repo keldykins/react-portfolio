@@ -11,15 +11,15 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Keldan',
-  subtitle: 'I am a JS Developer',
+  subtitle: 'Lets make your creative vision a reality',
   cta: 'groovy',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Lets make your creative vision a reality',
-  paragraphTwo: 'Cert in Full Stack Web Development through University of Denver',
+  paragraphOne: 'Cert in Full Stack Web Development through University of Denver',
+  paragraphTwo: '',
   paragraphThree:
     'Experience in HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, React.js, Database Theory, MongoDB, MySQL, Command Line, Git, and more.',
   resume:
