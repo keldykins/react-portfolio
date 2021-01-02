@@ -1,266 +1,46 @@
-# Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+# Keldan Cundy React Portfolio
 
-## A clean, beautiful and responsive portfolio template for Developers
+## Description
 
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
-  <br>
-</h2>
+My updated portfolio using the latest technologies in React.js
 
-## Features
+## Usage
 
-⚡️ Modern UI Design + Reveal Animations\
-⚡️ One Page Layout built with React\
-⚡️ Styled with Bootstrap v4.3 + Custom SCSS\
-⚡️ Fully Responsive\
-⚡️ Configurable color scheme\
-⚡️ Image optimization with Gatsby\
-⚡️ Easy site customization\
-⚡️ Well organized documentation
 
-To view a demo example, **[click here](https://gatsby-simplefolio.netlify.com/)**\
-To view a live example, **[click here](https://cobidev.com/)**
 
----
+## Contact
 
-## Getting Started 🚀
+Github: [keldykins](http://github.com/keldykins)
+<br />
+Email: [kelcundy@gmail.com](kelcundy@gmail.com)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## License
 
-### Prerequisites 📋
+Copyright © 2021 Keldan Cundy
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.\
-Also you need to have installed [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/)
+Template developed by [Jacobo Martínez](https://github.com/cobidev)
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-gatsby-cli@2.8.22 or higher
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-```
-yarn@v1.21.1 or higher
-```
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
----
 
-## How To Use 🔧
+## Screenshots
 
-From your command line, first clone Simplefolio:
+Landing page
 
-```bash
-# Clone this repository
-$ git clone https://github.com/cobidev/gatsby-simplefolio
+<img width="800" alt="Screen Shot 2021-01-01 at 7 41 02 PM" src="https://user-images.githubusercontent.com/66789135/103449710-844f5200-4c69-11eb-8af5-c8bb38077c0b.png">
 
-# Go into the repository
-$ cd gatsby-simplefolio
+About me
 
-# Remove current origin repository
-$ git remote remove origin
-```
+<img width="800" alt="Screen Shot 2021-01-01 at 7 41 21 PM" src="https://user-images.githubusercontent.com/66789135/103449716-903b1400-4c69-11eb-8b7a-4f5311991c23.png">
 
-Then you can install the dependencies either using NPM or Yarn:
+Portfolio
 
-Using NPM:
+<img width="800" alt="Screen Shot 2021-01-01 at 7 41 37 PM" src="https://user-images.githubusercontent.com/66789135/103449726-9f21c680-4c69-11eb-8592-07b218782872.png">
 
-```bash
-# Install dependencies
-$ npm install
+Contact
 
-# Start development server
-$ npm run develop
-```
-
-Using Yarn:
-
-```bash
-# Install dependencies
-$ yarn
-
-# Start development server
-$ yarn develop
-```
-
-**NOTE**:
-If your run into issues installing the dependencies with NPM, use this command:
-
-```bash
-# Install dependencies with all permissions
-$ sudo npm install --unsafe-perm=true --allow-root
-```
-
-Once your server has started, go to this url `http://localhost:8000/` and you will see the website running on a Development Server:
-
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.png" alt="Gatsby Simplefolio" width="100%">
-</h2>
-
----
-
-## Instructions:
-
-### Step 1 - STRUCTURE
-
-Go to `/src/mock/data.js` and fill your information, they are 5 objects:
-
-### Hero Section
-
-```javascript
-export const heroData = {
-  title: '', // Hello, my name is
-  name: '', // John
-  subtitle: '', // I'm the Unknown Developer.
-  cta: '', // Know more
-};
-```
-
-### About Section
-
-**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
-
-```javascript
-export const aboutData = {
-  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
-};
-```
-
-### Projects Section
-
-**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
-
-Put as many projects object you want inside the `array`.
-
-```javascript
-export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  ...
-];
-```
-
-### Contact Section
-
-```javascript
-export const contactData = {
-  cta: '', // call to action text for the contact section
-  btn: '', // text inside the button
-  email: '',
-};
-```
-
-### Footer Section
-
-You can remove or add as many you social-media icons you want.\
-Just put an object with the corresponding values inside the networks `array` or remove it from there.
-
-```javascript
-export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '', // your twitter url
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '', // your codepen url
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '', // your linkedin url
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '', // your github url
-    },
-  ],
-};
-```
-
-### Required - Disable GitHub buttons
-
-Set `isEnabled` to `false` once you finish setup your portfolio.\
-By setting to `false` it will hide the GitHub stars/fork buttons
-
-```javascript
-export const githubButtons = {
-  isEnabled: true, // true is the default value
-};
-```
-
-### Step 2 - STYLES
-
-Change the color theme of the website ( choose 2 colors to create a gradient ):
-
-Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$main-color` and `$secondary-color` to your prefered HEX color
-
-```scss
-// Default values
-$main-color: #02aab0;
-$secondary-color: #00cdac;
-```
-
-**_Note_**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#BrightVault)
-
----
-
-## Deployment 📦
-
-Once you have done with your setup. You need to put your website online!
-
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
-
-## Others versions 👥
-
-[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
-
-## Technologies used 🛠️
-
-- [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
-- [GraphQL](https://graphql.org/) - Query language for APIs
-- [React](https://es.reactjs.org/) - Front-End JavaScript library
-- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
-- [Sass](https://sass-lang.com/documentation) - CSS extension language
-
-## Authors
-
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
-
-## Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments 🎁
-
-I was motivated to create this project because I wanted to contribute on something useful for the dev community, thanks to [ZTM Community](https://github.com/zero-to-mastery) and [Andrei](https://github.com/aneagoie)
+<img width="800" alt="Screen Shot 2021-01-01 at 7 41 56 PM" src="https://user-images.githubusercontent.com/66789135/103449733-b2cd2d00-4c69-11eb-8c83-1476c1d1a4a2.png">
