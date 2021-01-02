@@ -29,12 +29,16 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 Landing page
 
-<img width="786" alt="Screen Shot 2020-11-15 at 6 03 36 PM" src="https://user-images.githubusercontent.com/66789135/99202595-efea6800-276c-11eb-9f18-d5cd3f8cc475.png">
+<img width="800" alt="Screen Shot 2021-01-01 at 7 41 02 PM" src="https://user-images.githubusercontent.com/66789135/103449710-844f5200-4c69-11eb-8af5-c8bb38077c0b.png">
 
-Contact
+About me
 
-<img width="865" alt="Screen Shot 2020-11-15 at 6 03 44 PM" src="https://user-images.githubusercontent.com/66789135/99202621-fed11a80-276c-11eb-94af-429420e2d892.png">
+<img width="800" alt="Screen Shot 2021-01-01 at 7 41 21 PM" src="https://user-images.githubusercontent.com/66789135/103449716-903b1400-4c69-11eb-8b7a-4f5311991c23.png">
 
 Portfolio
 
-<img width="878" alt="Screen Shot 2020-11-15 at 6 03 51 PM" src="https://user-images.githubusercontent.com/66789135/99202647-098baf80-276d-11eb-8008-7c3e441504db.png">
+<img width="800" alt="Screen Shot 2021-01-01 at 7 41 37 PM" src="https://user-images.githubusercontent.com/66789135/103449726-9f21c680-4c69-11eb-8592-07b218782872.png">
+
+Contact
+
+<img width="800" alt="Screen Shot 2021-01-01 at 7 41 56 PM" src="https://user-images.githubusercontent.com/66789135/103449733-b2cd2d00-4c69-11eb-8c83-1476c1d1a4a2.png">
