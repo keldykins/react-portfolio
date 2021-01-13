@@ -12,15 +12,16 @@ export const heroData = {
   title: '',
   name: 'Keldan',
   subtitle: 'Lets make your creative vision a reality',
-  cta: 'groovy',
+  cta: 'Groovy',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Creative and design inclined web developer with experience in both front and back end web development',
-  paragraphTwo: 'Cert in Full Stack Web Development through University of Denver',
+    'Creative and design-inclined web developer with experience in both front and back-end web development',
+  paragraphTwo:
+    'Cert in Full Stack Web Development through University of Denver, in Colorado, where I am currently located',
   paragraphThree:
     'Experience in HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, React.js, Database Theory, MongoDB, MySQL, Command Line, Git, and more.',
   resume:
@@ -81,7 +82,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'instagram',
-      url: 'https://instagram.com/mgc.wnd',
+      url: 'https://instagram.com/spiral.wx',
     },
   ],
 };
